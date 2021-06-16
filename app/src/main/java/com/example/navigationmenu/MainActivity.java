@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         button_go_to_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Going to Menu activity", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
         });
